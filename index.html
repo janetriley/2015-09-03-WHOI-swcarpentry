@@ -1,8 +1,8 @@
 ---
 layout: workshop
 root: .
-venue: Woods Hole Oceanographic Institute # brief name of host site
-address: WHOI Quissett Campus, 360 Woods Hole Rd., Woods Hole MA 02543FIXME    # street address of home location
+venue: Woods Hole Oceanographic Institution and USGS Woods Hole # brief name of host site
+address: WHOI Quissett Campus, 360 Woods Hole Rd., Woods Hole MA 02543   # street address of home location
 country: United-States    # country (hyphenated if need be, like 'United-Kingdom')
 language: en   # language code like 'en' or 'fr'
 latlng: 41.535081, -70.649093  # fractional latitude and longitude like 41.7901128,-87.6007318
@@ -67,7 +67,9 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
     "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
   </em>
 </p>
-
+<p>
+This workshop is sponsored by WHOI Ocean Informatics initiative, USGS Woods Hole, and MBLWHOI Library.
+</p>
 <!--
   AUDIENCE
 
@@ -76,7 +78,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers at the Woods Hole Oceanographic Institute.
+  The course is aimed at staff and students of the Woods Hole Oceanographic Institution and USGS Woods Hole.
 </p>
 
 <!--
@@ -90,8 +92,13 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 {% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{page.address}}.
+  {{page.address}}
+
+  <strong>Building and room:</strong>Clark 5-07
+
   Get directions with
+  <a href="http://www.whoi.edu/directions/">WHOI's driving directions</a> and <a href="http://www.whoi.edu/page.do?pid=8957">Quissett Campus map</a>
+  
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.  See <a href="http://www.whoi.edu/main/visitor-information">the WHOI visitor page</a> for more information. 

@@ -67,16 +67,17 @@ CHECKS = [
 # Editors
     'virtual-editor',
 # Browsers
-    'virtual-browser',
+    # Why is it checking for this? 
+    #'virtual-browser',
 # Version control
     'git',
     #'hg',              # Command line tool
     #'mercurial',       # Python package
     #'EasyMercurial',
 # Build tools and packaging
-    'make',
-    'virtual-pypi-installer',
-    'setuptools',
+    #'make',
+    #'virtual-pypi-installer',
+    #'setuptools',
     #'xcode',
 # Testing
     #'nosetests',       # Command line tool
@@ -98,7 +99,8 @@ CHECKS = [
     'sympy',
     'Cython',
     'networkx',
-    'mayavi.mlab',
+    # Is this matlab?
+    #'mayavi.mlab',
     ]
 
 CHECKER = {}

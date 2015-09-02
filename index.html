@@ -42,6 +42,17 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 </iframe>
 {% endif %}
 
+<h2>Navigation Shortcuts</h2>
+Jump to...
+<ul>
+<li><a href="thursday">Thursday's schedule</a></li>
+<li><a href="friday">Friday's schedule</a></li>
+<li><a href="etherpad">Etherpad notes</a></li>
+<li><a href="setup">Setup</a></li>
+</ul>
+
+
+
 <h2>General Information</h2>
 
 <!--
@@ -268,7 +279,8 @@ See <a href="http://www.whoi.edu/main/visitor-information">the WHOI visitor page
   '2015-06-10-esu'.
 -->
 {% if page.etherpad %}
-<h2>Etherpad notes</h2>
+<hr/>
+<a name="etherpad"></a><h2>Etherpad notes</h2>
 <p>
   We will use <a href="{{page.etherpad}}">the shared Etherpad at {{page.etherpad}}</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
@@ -354,8 +366,9 @@ See <a href="http://www.whoi.edu/main/visitor-information">the WHOI visitor page
     </ul>
   </div>
 </div>
--->
 <hr/>
+-->
+
 
 <!--
   SETUP
@@ -369,7 +382,7 @@ See <a href="http://www.whoi.edu/main/visitor-information">the WHOI visitor page
   'tools/check' as well.
 -->
 
-<h2 id="setup">Setup</h2>
+<a name="setup"></a><h2 id="setup">Setup</h2>
 
 <p>
   To participate in a Software Carpentry workshop, you will need
